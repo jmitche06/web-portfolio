@@ -3,3 +3,124 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html {
+     scroll-behavior: smooth;
+     
+}
+
+body{
+    font-family: "Irish Grover", system-ui;
+    
+}
+
+.header{
+    width: 100%;
+    padding: 10px 150px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4B4038;
+
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 20;
+}
+
+.header .nav-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.header .nav-links a{
+    text-decoration: none;
+    color: #CAAA98;
+    font-size: 24px;
+    
+    
+}
+
+@media screen and (max-width: 991px){
+    .header{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+.home{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.home img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.home .intro{
+    z-index: 10;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #4B4038;
+}
+
+.home .intro h1{
+    font-size: 100px;
+    text-align: center;
+    text-shadow:10px 10px 30px  beige;
+    
+}
+
+.home .intro h4{
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+    color: beige;
+    text-shadow: 10px 10px 30px #4B4038;
+
+     
+}
+
+@media screen and (max-width: 991px){
+    .home .intro h1{
+        font-size: 70px;
+    }
+
+    .home .intro h4{
+        font-size: 25px;
+    }
+   
+}
+
+.about {
+    width: 100%;
+    height: 100vh;
+    padding: 100px 150px;
+    background-color: #9A8678;
+
+}
+
+.about .title {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #4B4038;
+
+}
