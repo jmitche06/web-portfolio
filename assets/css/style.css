@@ -19,7 +19,7 @@ body {
 }
 
 .primary-light {
-    color: var(--light);
+    color: var(--red);
 }
 
 /* Nav  */
