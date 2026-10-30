@@ -46,7 +46,7 @@ body {
 .nav-logo {
     font-size: 40px;
     font-weight: 700;
-    color: var(--dark);
+    color: var(--red);
 }
 
 .nav-logo span {
