@@ -99,6 +99,7 @@ a {
     font-weight: 500;
     color: var(--light);
     text-align: center;
+    text-align: center;
 }
 
 .welcome-name {
@@ -107,6 +108,7 @@ a {
     color: var(--light);
     text-align: center;
     color: var(--red);
+    text-align: center;
 }
 
 .welcome-role {
