@@ -123,10 +123,8 @@ a {
 /* About */
 .about {
     width: 100%;
-    background: url(../image/Bg 4.jpg);
-    background-size: cover;
+    background: url("../image/Bg2.jpg")
     padding: 100px 200px;
-    
 
     display: flex;
     flex-direction: column;
@@ -234,8 +232,7 @@ a {
 /* Tools */
 .tools {
     width: 100%;
-    background-color: #A77F60;
-    background-size: cover;
+    background-color: var(--red);
     padding: 100px 200px;
 
     display: flex;
@@ -285,8 +282,7 @@ a {
 /* Projects */
 .projects {
     width: 100%;
-    background:url(../image/Bg2.jpg);
-    background-size: cover;
+    background-color: var(--light);
     padding: 100px 200px;
 
     display: flex;
