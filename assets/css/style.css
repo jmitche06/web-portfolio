@@ -123,7 +123,7 @@ a {
 /* About */
 .about {
     width: 100%;
-    background-color: var(--light);
+    background: url("../image/Bg2.jpg")
     padding: 100px 200px;
 
     display: flex;
@@ -232,7 +232,7 @@ a {
 /* Tools */
 .tools {
     width: 100%;
-    background-color: var(--red);
+    background: url("../image/Bg1.jpg");
     padding: 100px 200px;
 
     display: flex;
@@ -282,7 +282,7 @@ a {
 /* Projects */
 .projects {
     width: 100%;
-    background-color: var(--light);
+    background:url(../image/Bg2.jpg);
     padding: 100px 200px;
 
     display: flex;
