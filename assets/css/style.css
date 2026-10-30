@@ -98,7 +98,7 @@ a {
     font-weight: 500;
     color: var(--light);
     text-align: center;
-    text-align: center;
+    align-items: center;
 }
 
 .welcome-name {
