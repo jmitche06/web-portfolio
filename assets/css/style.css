@@ -124,6 +124,7 @@ a {
 .about {
     width: 100%;
     background: url("../image/Bg2.jpg")
+    background-size: cover;
     padding: 100px 200px;
 
     display: flex;
@@ -233,6 +234,7 @@ a {
 .tools {
     width: 100%;
     background: url("../image/Bg1.jpg");
+    background-size: cover;
     padding: 100px 200px;
 
     display: flex;
@@ -283,6 +285,7 @@ a {
 .projects {
     width: 100%;
     background:url(../image/Bg2.jpg);
+    background-size: cover;
     padding: 100px 200px;
 
     display: flex;
