@@ -36,7 +36,7 @@ body {
     align-items: center;
     gap: 20px;
 
-    background-color: var(--light);
+    background-color: var(--red);
 }
 
 .nav-logo, .nav-menu {
@@ -46,7 +46,7 @@ body {
 .nav-logo {
     font-size: 40px;
     font-weight: 700;
-    color: var(--red);
+    color: var(--dark);
 }
 
 .nav-logo span {
@@ -61,7 +61,7 @@ body {
     gap: 20px;
 
     font-size: 18px;
-    color: var(--light);
+    color: var(--dark);
 }
 
 .nav-menu div {
