@@ -335,13 +335,13 @@ a {
     font-size: 40px;
     line-height: 40px;
     font-weight: 700;
-    color: var(--dark);
+    color: var(--red);
 }
 
 .project-me {
     font-size: 20px;
     line-height: 24px;
-    color: var(--dark);
+    color: var(--red);
 }
 
 /* Contact */
