@@ -15,7 +15,7 @@ html {
 }
 
 body {
-    font-family: 'Segoe UI', Irish Groover, Geneva, Verdana, sans-serif;
+    font-family: 'Irish Groover', Geneva, Verdana, sans-serif;
 }
 
 .primary-light {
@@ -94,7 +94,7 @@ a {
     justify-content: center;
     align-items: center;
     gap: 15px;
-    font-style: verdana;
+    
 }
 
 .welcome-greeting {
