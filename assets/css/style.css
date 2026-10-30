@@ -123,7 +123,7 @@ a {
 /* About */
 .about {
     width: 100%;
-    background: url("../image/Bg2.jpg")
+    background-color: #A77F60; 
     padding: 100px 200px;
 
     display: flex;
