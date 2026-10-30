@@ -36,7 +36,7 @@ body {
     align-items: center;
     gap: 20px;
 
-    background-color: var(--red);
+    background-color: var(--dark);
 }
 
 .nav-logo, .nav-menu {
