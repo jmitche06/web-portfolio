@@ -101,6 +101,7 @@ a {
     font-weight: 500;
     color: var(--light);
     text-align: center;
+    justify-content: center;
     
 }
 
@@ -109,7 +110,7 @@ a {
     font-weight: 700;
     text-align: center;
     color: var(--red);
-    
+    justify-content: center;
 }
 
 .welcome-role {
