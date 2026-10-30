@@ -79,13 +79,11 @@ a {
     height: 100vh;
     background-color: var(--dark);
 
-    padding: 100px 200px;
+    padding: 0px 200px;
 }
 
 .welcome {
     width: 100%;
-    height: 100%;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
